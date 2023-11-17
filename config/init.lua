@@ -704,6 +704,8 @@ function ColorMyPencils(color)
     vim.api.nvim_set_hl(0, "DiagnosticSignError", { bg = "none", fg = "#DC666A" })
     vim.api.nvim_set_hl(0, "DiagnosticSignInfo", { bg = "none", fg = "#76C683" })
     vim.api.nvim_set_hl(0, "DiagnosticSignHint", { bg = "none", fg = "#76C683" })
+    
+    vim.api.nvim_set_hl(0, "Visual", { bg = "#ebdbb2", fg = "#3c3836" })
 end
 
 ColorMyPencils()
